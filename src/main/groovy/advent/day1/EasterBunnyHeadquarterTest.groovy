@@ -95,4 +95,9 @@ class EasterBunnyHeadquarterTest {
         println "Point: " + p
         println "dist: " + (Math.abs(p.x) + Math.abs(p.y))
     }
+
+    @Test
+    void firstRevisit() {
+        Point p = map.getEndpoint("R8, R4, R4, R8")
+    }
 }
